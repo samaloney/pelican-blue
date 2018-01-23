@@ -13,7 +13,13 @@
 {% endblock head %}
 {% block content_title %}{% endblock %}
 {% block content %}
-    <h1 class="title">Hi, I'm {{ AUTHOR }}</h1>
+    <h1 class="title">Home</h1>
+    Welcome to my site I post here for mainly the following reasons:
+    <ul>
+        <li>Archive useful or interesting ideas and techniques</li>
+        <li>Share code, tips, other information with others</li>
+        <li>As a reference for myself in the future</li>
+    </ul>
     {% if articles %}
         <ol>
             {% block heading %}<h2 class="latest">Latest Posts</h2>{% endblock %}
